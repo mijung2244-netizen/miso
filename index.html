@@ -1,8 +1,98 @@
-<html>
-  <head>
-    <title>메인페이지</title>
-  </head>
-  <body>
-    <h2>메인페이지입니다...</h2>
-  </body>
-</html>
+/* 전체 설정 */
+body{
+    font-family: "맑은 고딕", sans-serif;
+    background:#f4f7fb;
+    margin:0;
+    padding:30px;
+    color:#333;
+    line-height:1.8;
+}
+
+/* 제목 */
+header{
+    background:#4b7bec;
+    color:white;
+    text-align:center;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:30px;
+}
+
+header h1{
+    margin:0;
+}
+
+/* 카드 */
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 소제목 */
+h2{
+    color:#4b7bec;
+    border-left:6px solid #4b7bec;
+    padding-left:12px;
+    margin-bottom:20px;
+}
+
+h3{
+    color:#444;
+}
+
+/* 프로필 사진 */
+.profile{
+    display:block;
+    margin:20px auto;
+    width:260px;
+    border-radius:50%;
+    border:6px solid #4b7bec;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* 취미 */
+.hobby{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.box{
+    width:320px;
+    background:#f9fbff;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.box img{
+    width:220px;
+    border-radius:10px;
+    margin:15px 0;
+}
+
+/* 강조 */
+strong{
+    color:#e74c3c;
+}
+
+/* footer */
+footer{
+    margin-top:40px;
+    background:#4b7bec;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:12px;
+}
